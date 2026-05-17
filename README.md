@@ -13,3 +13,6 @@
 - 本模板项目介绍：此为最初的准备的项目模板
     每个分支项目都会由他去继承
 - 作者：Pinavia - 2025
+
+![log](./Body/8-Picture/Logo.png)
+*OneHistory*
