@@ -14,5 +14,4 @@
     每个分支项目都会由他去继承
 - 作者：Pinavia - 2025
 
-![log](./Body/8-Picture/Logo.png)
-*OneHistory*
+![logo](./Body/8-Picture/Logo.png)
