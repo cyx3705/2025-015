@@ -3,7 +3,6 @@
 > 简短的项目描述（一句话）
 
 ## 目录结构
-- `Body/` -存放主要内容
 - `Note`  -存放零时想法
 
 ## 使用方法（包括INDEX）
@@ -14,4 +13,4 @@
     每个分支项目都会由他去继承
 - 作者：Pinavia - 2025
 
-![logo](./Body/8-Picture/Logo.png)
+![logo](./8-Picture/Logo.png)
