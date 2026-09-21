@@ -1,0 +1,189 @@
+# LFS 规则：不到 100MB 的文件一律不走 LFS。
+# ≥100MB 的具体文件由下面的 HistoryJanus lfs 托管块逐条列出，其余行不得出现 filter=lfs。
+* text=auto
+
+Logo.png -text
+b-Code/GXplc编程.gx3 -text
+b-Code/示例.gx3 -text
+b-Code/示例项目.gx3 -text
+b-EPLAN/1-示例项目.edb/Images/EPLAN.jpg -text
+b-EPLAN/N0000.edb/Images/EPLAN.jpg -text
+b-EPLAN/N0000.edb/Images/EPLAN_LOGO.BMP -text
+b-EPLAN/接线图.edb/DOC/接线图.pdf -text
+b-EPLAN/接线图.edb/Images/EPLAN.jpg -text
+b-Module-2D/三联支架.SLDDRW -text
+b-Module-2D/三联支架.pdf -text
+b-Module-2D/光轴.SLDDRW -text
+b-Module-2D/光轴.pdf -text
+b-Module-2D/刚体固定架.SLDDRW -text
+b-Module-2D/刚体固定架.pdf -text
+b-Module-2D/工作版.SLDDRW -text
+b-Module-2D/工作版.pdf -text
+b-Module-2D/底座支架.SLDDRW -text
+b-Module-2D/底座支架.pdf -text
+b-Module-2D/底板.SLDDRW -text
+b-Module-2D/底板.pdf -text
+b-Module-2D/气弹簧固定版.SLDDRW -text
+b-Module-2D/气弹簧固定版.pdf -text
+b-Module-2D/气缸链接板.SLDDRW -text
+b-Module-2D/气缸链接板.pdf -text
+b-Module-2D/电器布局图.dwg -text
+b-Module-2D/电盒支持架.SLDDRW -text
+b-Module-2D/电盒支持架.pdf -text
+b-Module-2D/背板反工.SLDDRW -text
+b-Module-2D/背板反工.pdf -text
+b-Module-2D/行程开关安专板.SLDDRW -text
+b-Module-2D/行程开关安专板.pdf -text
+b-Module-2D/装配体2.SLDDRW -text
+b-Module-2D/装配体2.pdf -text
+b-Module-2D/顶板.SLDDRW -text
+b-Module-2D/顶板.pdf -text
+b-Module-GE/GAC30008S.STEP -text
+b-Module-GE/专配体/NP2-BD按钮三维模型202204.stp -text
+b-Module-GE/专配体/NP2-BW1按钮三维模型202204.stp -text
+b-Module-GE/专配体/NP2-BW4按钮三维模型202204.stp -text
+b-Module-GE/专配体/heye.stp -text
+b-Module-GE/专配体/lianjie.stp -text
+b-Module-GE/专配体/三联支架.STEP -text
+b-Module-GE/专配体/保险丝座.stp -text
+b-Module-GE/专配体/光轴.STEP -text
+b-Module-GE/专配体/刚体固定架.stp -text
+b-Module-GE/专配体/工作版.stp -text
+b-Module-GE/专配体/底座支架.STEP -text
+b-Module-GE/专配体/气弹簧固定版.stp -text
+b-Module-GE/专配体/气缸链接板.STEP -text
+b-Module-GE/专配体/电盒支持架.STEP -text
+b-Module-GE/专配体/箱体.stp -text
+b-Module-GE/专配体/箱盖.stp -text
+b-Module-GE/专配体/背板反工.STEP -text
+b-Module-GE/专配体/行程开关安专板.STEP -text
+b-Module-GE/专配体/装配体（通用）.STEP -text
+b-Module-GE/专配体/计数器.stp -text
+b-Module-GE/专配体/锁芯.stp -text
+b-Module-GE/专配体/顶板.STEP -text
+b-Module-GE/主体/三联支架.STEP -text
+b-Module-GE/主体/光轴.STEP -text
+b-Module-GE/主体/刚体固定架.stp -text
+b-Module-GE/主体/右侧连接.stp -text
+b-Module-GE/主体/底座支架.STEP -text
+b-Module-GE/主体/底板.STEP -text
+b-Module-GE/主体/气缸链接板.STEP -text
+b-Module-GE/主体/电盒支持架.STEP -text
+b-Module-GE/主体/背板反工.STEP -text
+b-Module-GE/主体/行程开关安专板.STEP -text
+b-Module-GE/主体/顶板.STEP -text
+b-Module-GE/导轨.stp -text
+b-Module-GE/按钮/NP2-BD按钮三维模型202204.stp -text
+b-Module-GE/按钮/NP2-BW1按钮三维模型202204.stp -text
+b-Module-GE/按钮/NP2-BW4按钮三维模型202204.stp -text
+b-Module-GE/梯形螺母.stp -text
+b-Module-GE/气缸.STEP -text
+b-Module-GE/气缸链接板.x_t -text
+b-Module-GE/滑块.stp -text
+b-Module-GE/紧固螺钉.stp -text
+b-Module-GE/触碰开关.stp -text
+b-Module-GE/触碰开关盒.stp -text
+b-Module-GE/配件箱/heye.stp -text
+b-Module-GE/配件箱/保险丝座.stp -text
+b-Module-GE/配件箱/箱体.stp -text
+b-Module-GE/配件箱/箱盖.stp -text
+b-Module-GE/配件箱/计数器.stp -text
+b-Module-GE/配件箱/计数器2.stp.STEP -text
+b-Module-GE/配件箱/锁芯.stp -text
+b-Module-GE/零件1.stp -text
+b-Module-SE/0-装配体.asm -text
+b-Module-SE/0-装配体.cfg -text
+b-Module-SE/零件.par -text
+b-Module-SW/lianjie.SLDPRT -text
+b-Module-SW/np2-bd按钮三维模型202204.SLDPRT -text
+b-Module-SW/np2-bw1按钮三维模型202204.SLDPRT -text
+b-Module-SW/np2-bw4按钮三维模型202204.SLDPRT -text
+b-Module-SW/三联支架.SLDPRT -text
+b-Module-SW/主体/刚体固定架.SLDPRT -text
+b-Module-SW/主体/工作版.SLDPRT -text
+b-Module-SW/主体/气缸.SLDASM -text
+b-Module-SW/主体/箱盖.SLDPRT -text
+b-Module-SW/主体/背板.SLDPRT -text
+b-Module-SW/主体/零件6.SLDPRT -text
+b-Module-SW/保险丝座.SLDPRT -text
+b-Module-SW/光轴.SLDPRT -text
+b-Module-SW/刚体固定架.SLDPRT -text
+b-Module-SW/导轨.SLDPRT -text
+b-Module-SW/工作版.SLDPRT -text
+b-Module-SW/底座支架.SLDPRT -text
+b-Module-SW/底板.SLDPRT -text
+b-Module-SW/梯形螺母.SLDPRT -text
+b-Module-SW/气弹簧固定版.SLDPRT -text
+b-Module-SW/气缸链接板.SLDPRT -text
+b-Module-SW/滑块.SLDPRT -text
+b-Module-SW/电盒支持架.SLDPRT -text
+b-Module-SW/箱体1.SLDPRT -text
+b-Module-SW/箱盖1.SLDPRT -text
+b-Module-SW/紧固螺钉.SLDPRT -text
+b-Module-SW/背板反工.SLDPRT -text
+b-Module-SW/螺母.SLDPRT -text
+b-Module-SW/螺母2.SLDPRT -text
+b-Module-SW/行程开关安专板.SLDPRT -text
+b-Module-SW/装配件/气动三元件/GA300L-P1.sldprt -text
+b-Module-SW/装配件/气动三元件/GAC30008S.sldasm -text
+b-Module-SW/装配件/气动三元件/GAF30008J.sldprt -text
+b-Module-SW/装配件/气动三元件/GAL30008J.sldprt -text
+b-Module-SW/装配件/气动三元件/GAR30008SJ.sldprt -text
+b-Module-SW/装配件/气动阀门连接件/4V330C-08-Valve_Body.sldprt -text
+b-Module-SW/装配件/气动阀门连接件/4V330C-10-Valve_Body.sldprt -text
+b-Module-SW/装配件/气动阀门连接件/4V330C08A.sldasm -text
+b-Module-SW/装配件/气动阀门连接件/4V330C10B.sldasm -text
+b-Module-SW/装配件/气动阀门连接件/GA200L-P1.sldprt -text
+b-Module-SW/装配件/气动阀门连接件/GAC20006S.sldasm -text
+b-Module-SW/装配件/气动阀门连接件/GAF20006J.sldprt -text
+b-Module-SW/装配件/气动阀门连接件/GAL20006J.sldprt -text
+b-Module-SW/装配件/气动阀门连接件/GAR20006SJ.sldprt -text
+b-Module-SW/装配件/气缸/F-SC100FA(SC).sldprt -text
+b-Module-SW/装配件/气缸/F-SC100FA(SC)_1.sldprt -text
+"b-Module-SW/装配件/气缸/SC-100 Screw.sldprt" -text
+"b-Module-SW/装配件/气缸/SC-100 Screw_1.sldprt" -text
+"b-Module-SW/装配件/气缸/SC-100-M20x1.5 - Nut.sldprt" -text
+"b-Module-SW/装配件/气缸/SC-100-M20x1.5 - Nut_1.sldprt" -text
+b-Module-SW/装配件/气缸/SC-100x150-FA(0)_r.sldprt -text
+b-Module-SW/装配件/气缸/SC-100x150-FA(0)_r_1.sldprt -text
+b-Module-SW/装配件/气缸/SC100X150_c.sldprt -text
+b-Module-SW/装配件/气缸/SC100X150_c_1.sldprt -text
+b-Module-SW/装配件/气缸/SC100x150FA(000)+().sldasm -text
+b-Module-SW/装配件/气缸/SC100x150FA(000)+()_1.sldasm -text
+b-Module-SW/装配体.SLDASM -text
+b-Module-SW/装配体2.SLDASM -text
+b-Module-SW/触碰开关.stp.SLDPRT -text
+b-Module-SW/触碰开关盒.SLDPRT -text
+b-Module-SW/计数器.SLDPRT -text
+b-Module-SW/铜套.SLDPRT -text
+b-Module-SW/锁芯.SLDPRT -text
+b-Module-SW/零件.SLDPRT -text
+b-Module-SW/零件2.SLDPRT -text
+b-Module-SW/顶板.SLDPRT -text
+b-Office/BOOM表.xlsx -text
+b-Office/IO分配表.xlsx -text
+b-Office/产品说明书.docx -text
+b-Office/成品检验表.docx -text
+b-Office/接线图.pdf -text
+b-Office/机电气综合项目题目.docx -text
+b-Office/电器BOM表.xlsx -text
+b-Office/电器开线表.xlsx -text
+b-Picture/效果图.png -text
+b-Picture/电器参考原理图.png -text
+"b-Picture/第三次作业图片记录  (2).png" -text
+"b-Picture/第三次作业图片记录 (3).png" -text
+"b-Picture/第三次作业图片记录 (4).png" -text
+"b-Picture/第三次作业图片记录 (5).png" -text
+"b-Picture/第三次作业图片记录 (6).png" -text
+"b-Picture/第三次作业图片记录 .png" -text
+"b-Picture/第五次作业图片记录 (1).png" -text
+"b-Picture/第五次作业图片记录 (2).png" -text
+"b-Picture/第五次作业图片记录 (3).png" -text
+"b-Picture/第五次作业图片记录 (4).png" -text
+"b-Picture/第五次作业图片记录 (5).png" -text
+"b-Picture/第五次作业图片记录 (6).png" -text
+"b-Picture/第五次作业图片记录 (7).png" -text
+"b-Picture/第四次作业图片记录 (1).png" -text
+"b-Picture/第四次作业图片记录 (2).png" -text
+"b-Picture/第四次作业图片记录 (3).png" -text
+"b-Picture/第四次作业图片记录 (4).png" -text
